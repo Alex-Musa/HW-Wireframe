@@ -45,7 +45,14 @@ Aside
     width: 470px;
 }
 
-Section
+.section2
 {
     float: left;
+}
+
+footer
+{
+    clear: both;
+    overflow: auto;
+    margin-top: 20px;
 }
