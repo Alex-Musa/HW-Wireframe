@@ -37,6 +37,11 @@ nav
     padding: 20px;
     margin: 0 150px 20px 150px;
 }
+.clearfix::after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
 
 aside
 {
@@ -59,24 +64,12 @@ aside
 {
 
 }
-/*
-Aside
-{
-    float:right;
-    height:100px;
-    width: 470px;
-}
 
-.section2
-{
-    float: left;
-}
-*/
+
 footer
 {
     padding: 20px;
     overflow: auto;
     clear: both;
-    background: #FFA500;
 }
 
